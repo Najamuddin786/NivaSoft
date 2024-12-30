@@ -1,0 +1,37 @@
+@keyframes boxShadowAnimation {
+    0% {
+      box-shadow: 1px 0px 10px rgba(0, 0, 255, 0.2); /* Blue */
+    }
+    50% {
+      box-shadow: 1px 0px 10px rgba(255, 0, 0, 0.2); /* Red */
+    }
+    100% {
+      box-shadow: 1px 0px 10px rgba(0, 0, 255, 0.2); /* Blue */
+    }
+  }
+  
+  .animated-box {
+    animation: boxShadowAnimation 2s infinite;
+  }
+
+  .nav-item {
+    text-decoration: none;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .nav-item:hover {
+    transform: scale(1.2);
+  }
+
+
+  .fade-out {
+    transition: opacity 0.5s ease-in-out; /* Smooth transition */
+   
+  }
+  
+  .fade-out.hidden {
+    opacity: 0; /* Fully hidden */
+  }
+  
+  
+  
