@@ -1,7 +1,7 @@
-
+import FooterMain from "./Footer/FooterMain"
 export default function Footer(){
 
     return <>
-            Footer........
+            <FooterMain/>
     </>
 }
